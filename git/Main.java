@@ -17,7 +17,7 @@ public class Main {
         students.add(student2);
         students.add(student3);
         students.add(student4);
-        students.add(student5);
+  
         Group group = new Group(1, students);
         System.out.println(group+"Средний балл группы: "+group.getAverageRatingOfGroup());
 
