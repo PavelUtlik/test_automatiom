@@ -8,11 +8,11 @@ public class Main {
         Student student3=new Student("Тимофей", "Серединский", 3, new int[]{7, 7});
         Student student4=new Student("Тимур", "Савко", 3, new int[]{9,8,7});
         Student student5=new Student("Максим", "Бойко", 3, new int[]{9,8,7});
-        System.out.println(student1+"Средний балл: "+student1.getAverageRating()+"\n");
-        System.out.println(student2+"Средний балл: "+student2.getAverageRating()+"\n");
-        System.out.println(student3+"Средний балл: "+student3.getAverageRating()+"\n");
-        System.out.println(student4+"Средний балл: "+student4.getAverageRating()+"\n");
-        System.out.println(student5+"Средний балл: "+student5.getAverageRating()+"\n");
+        System.out.println(student1+"Average Rating: "+student1.getAverageRating()+"\n");
+        System.out.println(student2+"Average Rating: "+student2.getAverageRating()+"\n");
+        System.out.println(student3+"Average Rating: "+student3.getAverageRating()+"\n");
+        System.out.println(student4+"Average Rating: "+student4.getAverageRating()+"\n");
+        System.out.println(student5+"Average Rating: "+student5.getAverageRating()+"\n");
 
         ArrayList<Student> students = new ArrayList<>();
         students.add(student1);

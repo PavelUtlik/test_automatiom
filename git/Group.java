@@ -8,7 +8,7 @@ public class Group {
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder("");
-        res.append("Группа: " + groupId + "\n");
+        res.append("Group: " + groupId + "\n");
         for (int i = 0; i < getStudents().size(); i++) {
             res.append(getStudents().get(i).toString());
         }
