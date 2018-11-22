@@ -8,9 +8,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Name: " + name +
-                " Surneme: " + surname + " Number of course: " + courseId +
-                " Raiting: " + Arrays.toString(rating) + "\n";
+        return "Name: " + name + " Surneme: " + surname + " Number of course: " + courseId + " Raiting: " + Arrays.toString(rating) + "\n";
     }
     public Student(String name, String surname, int courseId, int[] rating) {
         this.name = name;
