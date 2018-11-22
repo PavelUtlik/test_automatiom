@@ -39,9 +39,7 @@ public class Student {
     public int[] getRating() {
         return rating;
     }
-    public void setRating(int[] rating) {
-        this.rating = rating;
-    }
+    
     public int getCourseId() {
         return courseId;
     }
