@@ -1,0 +1,107 @@
+onetravel.com
+
+1
+Head: 
+Проверить что календарь выбора обратного рейса скрывается после выбора билета в 1 конец.
+Steps:
+1)Зайти на onetravel.com
+2)На вкладке Flights нажать на "One way"
+Expected result:
+Календарь выбора даты обратного рейса "Return" исчез. 
+
+2
+Head: 
+Проверить наличие ограничения на количество бронируемых билетов.
+Steps:
+1)Зайти на onetravel.com
+2)Нажать на надпись "1 Traveler, Coach"
+3)Нажать 9 раз на «+» справа от поля "Adults".
+Expected result:
+Значение поля Adults остается равным 9 при последнем клике на "+"
+
+3
+Head: 
+Проверить что ограниченивает максимальное допустимое количество младенцев на каждого взрослого.
+Steps:
+1)Зайти на onetravel.com
+2)Нажать на надпись "1 Traveler, Coach"
+3)Дважды нажать на знак "+" напротив надписи "Lap Infants (0-1)".  
+4)Нажать на кнопку "Search Now".
+Expected result:
+Появляется сообщение:
+"Each child under 2 (lap) should have at least one Adult or Senior traveling with them."
+
+4
+Head: 
+Проверить что ограничивает максимальное допустимое количество несовершеннолетних на каждого взрослого.
+Steps:
+1)Зайти на onetravel.com
+2)Нажать на надпись "1 Traveler, Coach"
+3)Напротив надписи "Children (2-15)" 9 раз на «+».
+Expected result:
+Напротив надписи "Children (2-15)" отображается "8"
+
+5
+Head: 
+Проверить что невозможно забронировать билет на обратный рейс на дату раннее даты вылета.
+Steps:
+1)Зайти на onetravel.com
+2)Нажать на поле с надписью "Depart"
+3)Выбрать сегодняшнюю дату. 
+4)Нажать на поле с надписью "Return"
+Expected result:
+Вчерашняя дата должна быть некликабельна.
+
+6
+Head: 
+Проверить что невозможно выбрать 1 и тот-же аэропорт отбытия и прибытия для рейса.
+Steps:
+1)Зайти на onetravel.com
+2)Вписать значение "VTB - Vitebsk, Belarus" в поле "From" 
+3)Вставить это-же значение в поле "To"
+4)Нажать на кнопку "Search Now".
+Expected result:
+Возникла надпись "Please enter a To city or airport."
+
+7
+Head: 
+Проверить что невозможно выбрать дату выписки из отеля раннее даты регистрации.
+Steps:
+1)Зайти на onetravel.com
+2)Перейти на вкладку формы "Hotels"
+3)Нажать на "Check-out"
+Expected result:
+Самая ранняя допустимая к выбору дата должна быть идентична дате, указанной в поле "Check-in"
+
+8
+Head: 
+Проверить что отображает поля выбора другого аэропорта в случае различных мест отбытия и места назначения обратного рейса.
+Steps:
+1)Зайти на onetravel.com
+2)Нажать на кнопку "Advanced Options"
+3)Поставить галочку в check button "Return to or from another city/airport?" 
+Expected result:
+Надпись "Enter different return to or from city/airport below" и поля выбора иного места назначения для обратного рейса должны быть отображены.
+
+9
+Head: 
+Проверить что невозможно бронировать билеты для младенцев без сопроваждающих.
+Steps:
+1)Зайти на onetravel.com
+2)Нажать на надпись "1 Traveler, Coach"
+3)Нажать на знак "+" напротив   надписи "Lap Infants (0-1)". 
+4)Нажать на "-" напротив поля "Adults". 
+5)Нажать на кнопку "Search Now".
+Expected result:
+Появляется сообщение:
+"Each child under 2 (lap) should have at least one Adult or Senior traveling with them."
+
+10
+Head: 
+Проверить что выбор места назначения обратного рейса скрыт после выбора билета в 1 конец.
+Steps:
+1)Зайти на onetravel.com
+2)Нажать на кнопку "Advanced Options"
+3)На вкладке Flights нажать на "One way"
+Expected result:
+Поле "Return to or from another city/airport?" должно исчезнуть. 
